@@ -1,0 +1,12 @@
+.account {
+  width: 50%;
+  display: flex;
+  gap: 1rem;
+  justify-content: flex-end;
+  margin-right: 2rem;
+  align-items: center;
+}
+
+.account > span {
+  cursor: pointer;
+}

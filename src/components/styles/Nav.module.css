@@ -1,0 +1,30 @@
+/* nav */
+.navigation {
+  display: flex;
+  background-color: #fff;
+  border-bottom: 1px solid #e5e5e5;
+  z-index: 1;
+}
+
+.navigation ul {
+  width: 50%;
+  height: 60px;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navigation ul:first-child {
+  margin-left: 30px;
+}
+
+.navigation .logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navigation .logo img {
+  width: 10rem;
+}
