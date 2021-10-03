@@ -1,0 +1,6 @@
+.food-card{
+    width: 20rem;
+    background-color: rgba(204, 204, 204, 0.555);
+    border-radius: 1rem;
+    display: flex;
+}

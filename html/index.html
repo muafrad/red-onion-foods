@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <title>Red Onion Foods</title>
+  </head>
+  <body>
+    <nav class="nav-bar">
+      <ul>
+        <li>
+          <a href="index.html" class="logo">
+            <img src="./assets/logo2.png" alt="Red Onion Foods" />
+          </a>
+        </li>
+      </ul>
+      <div class="account">
+        <span class="material-icons-outlined" title="Cart">
+          shopping_cart
+        </span>
+        <button class="btn btn-sm"href="login.html">Login</button>
+        <button class="btn btn-danger btn-sm" href="signup.html">Sign up</button>
+        <span class="material-icons-outlined" title="Logout"> logout </span>
+      </div>
+    </nav>
+    <header class="banner text-center">
+        <form class="col-md-6 m-auto py-5">
+            <h1 class="mt-5">Best food waiting for your belly</h1>
+            <div class="input-group mt-5">
+                <input type="text" class="form-control" placeholder="Search your food here" aria-label="Recipient's username" aria-describedby="button-addon2">
+                <button class="btn btn-danger" type="button" id="button-addon2">Button</button>
+              </div> 
+            </div>
+          </form>
+    </header>
+    <main>
+        <nav class="nav justify-content-center mt-5">
+            <div class="nav nav-tabs" id="nav-tab" role="tablist">
+              <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Breakfast</button>
+              <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Lunch</button>
+              <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">Dinner</button>
+            </div>
+          </nav>
+
+          <div class="tab-content" id="nav-tabContent">
+          
+<!-- Breakfast section -->
+
+            <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+                <div class="container mt-5">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="card" style="width: 20rem;">
+                                <img src="./assets/Breakfast/breakfast1.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <p class="h4 h4 text-center">Eggs Benedict</p>
+                                    <p class="text-muted h6">How we dream about our future</p>
+                                    <p class="h4 text-center"> $9.99</p>
+                               </div>
+                            </div>
+                       </div>
+                        <div class="col-md-4">
+                            <div class="card" style="width: 20rem;">
+                                <img src="./assets/Breakfast/breakfast2.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <p class="h4 h4 text-center">Breakfast Sandwich</p>
+                                    <p class="text-muted h6">How we dream about our future</p>
+                                    <p class="h4 text-center"> $9.99</p>
+                                </div>
+                              </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card" style="width: 20rem;">
+                                <img src="./assets/Breakfast/breakfast3.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <p class="h4 h4 text-center">Baked Chicken</p>
+                                    <p class="text-muted h6">How we dream about our future</p>
+                                    <p class="h4 text-center"> $9.99</p>
+                                </div>
+                              </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card mt-3" style="width: 20rem;">
+                                <img src="./assets/Breakfast/breakfast4.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <p class="h4 h4 text-center">Bagel & cream cheese</p>
+                                    <p class="text-muted h6">How we dream about our future</p>
+                                    <p class="h4 text-center"> $9.99</p>
+                                </div>
+                              </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card mt-3" style="width: 20rem;">
+                                <img src="./assets/Breakfast/breakfast5.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <p class="h4 h4 text-center">Full Breakfast</p>
+                                    <p class="text-muted h6">How we dream about our future</p>
+                                    <p class="h4 text-center"> $9.99</p>
+                                </div>
+                              </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card mt-3" style="width: 20rem;">
+                                <img src="./assets/Breakfast/breakfast6.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <p class="h4 h4 text-center">Toast croissant fried egg</p>
+                                    <p class="text-muted h6">How we dream about our future</p>
+                                    <p class="h4 text-center"> $9.99</p>
+                                </div>
+                              </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+<!-- Lunch Section -->
+
+            <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+                <div class="container mt-5">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="card" style="width: 20rem;">
+                                <img src="./assets/lunch/lunch1.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <p class="h4 h4 text-center">Beef Steak</p>
+                                    <p class="text-muted h6">How we dream about our future</p>
+                                    <p class="h4 text-center"> $9.99</p>
+                               </div>
+                            </div>
+                       </div>
+                    <div class="col-md-4">
+                        <div class="card" style="width: 20rem;">
+                            <img src="./assets/lunch/lunch2.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="h4 h4 text-center">Honey Salmon with peepers</p>
+                                <p class="text-muted h6">How we dream about our future</p>
+                                <p class="h4 text-center"> $9.99</p>
+                           </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card" style="width: 20rem;">
+                            <img src="./assets/lunch/lunch3.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="h4 h4 text-center">Terragon Rubbed Salmon</p>
+                                <p class="text-muted h6">How we dream about our future</p>
+                                <p class="h4 text-center"> $9.99</p>
+                           </div>
+                        </div>
+                   </div>
+                   <div class="col-md-4">
+                    <div class="card mt-3" style="width: 20rem;">
+                        <img src="./assets/lunch/lunch4.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="h4 h4 text-center">Indian lunch</p>
+                            <p class="text-muted h6">How we dream about our future</p>
+                            <p class="h4 text-center"> $9.99</p>
+                       </div>
+                    </div>
+               </div>
+               <div class="col-md-4">
+                <div class="card mt-3" style="width: 20rem;">
+                    <img src="./assets/lunch/lunch5.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="h4 h4 text-center">Fried chicken bento</p>
+                        <p class="text-muted h6">How we dream about our future</p>
+                        <p class="h4 text-center"> $9.99</p>
+                   </div>
+                </div>
+           </div>
+           <div class="col-md-4">
+            <div class="card mt-3" style="width: 20rem;">
+                <img src="./assets/lunch/lunch6.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="h4 h4 text-center">Healthy meal plan</p>
+                    <p class="text-muted h6">How we dream about our future</p>
+                    <p class="h4 text-center"> $9.99</p>
+               </div>
+            </div>
+       </div>
+                    </div>
+                </div>
+            </div>
+            
+<!-- Dinner section -->
+
+            <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+                <div class="container mt-5">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="card" style="width: 20rem;">
+                                <img src="./assets/Dinner/dinner1.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <p class="h4 text-center">Baked Chicken</p>
+                                    <p class="text-muted h6">How we dream about our future</p>
+                                    <p class="h4 text-center"> $9.99</p>
+                                </div>
+                              </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card" style="width: 20rem;">
+                                <img src="./assets/dinner/dinner2.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <p class="h4 text-center">Lemony Salmon</p>
+                                    <p class="text-muted h6">How we dream about our future</p>
+                                    <p class="h4 text-center"> $9.99</p>
+                                </div>
+                              </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card" style="width: 20rem;">
+                                <img src="./assets/dinner/dinner3.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <p class="h4 h4 text-center">Garlic Butter</p>
+                                    <p class="text-muted h6">How we dream about our future</p>
+                                    <p class="h4 text-center"> $9.99</p>
+                                </div>
+                              </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card mt-3" style="width: 20rem;">
+                                <img src="./assets/dinner/dinner4.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <p class="h4 h4 text-center">French Fries</p>
+                                    <p class="text-muted h6">How we dream about our future</p>
+                                    <p class="h4 text-center"> $9.99</p>
+                                </div>
+                              </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card mt-3" style="width: 20rem;">
+                                <img src="./assets/dinner/dinner5.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <p class="h4 h4 text-center">Pork Tenderloin</p>
+                                    <p class="text-muted h6">How we dream about our future</p>
+                                    <p class="h4 text-center"> $9.99</p>
+                                </div>
+                              </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card mt-3" style="width: 20rem;">
+                                <img src="./assets/dinner/dinner6.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <p class="h4 h4 text-center">Salmon with Grape Fruit and Lentil Salad</p>
+                                  <p class="text-muted h6">How we dream about our future</p>
+                                  <p class="h4 text-center"> $9.99</p>
+                                </div>
+                              </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="d-grid d-md-flex justify-content-md-center p-3">
+                <button type="button" class="btn btn-sm btn-secondary">Checkout Your Food</button>
+            </div>
+
+<!-- Info section -->
+            <section>
+                <div class="container mb-5">
+                    <div class="info">
+                        <p class="h2">Why you choose use</p>
+                        <p class="text-muted">Barton waited twenty always repair within we do. An delighted offending </br> curiosity my is dashwoods at. Boy prosperous increasing surrounded</p>
+                    </div>
+                    <div class="container mt-5">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="card" style="width: 20rem;">
+                                    <img src="./assets/Image/adult-blur-blurred-background-687824.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                      <h5 class="card-title">Fast Delivery</h5>
+                                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                      <a href="#" class="btn text-primary">See more</a>
+                                    </div>
+                                  </div>
+                            </div>
+                            <div class="col-md-4">
+                            <div class="card" style="width: 20rem;">
+                                <img src="./assets/Image/chef-cook-food-33614.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <h5 class="card-title">A Good Auto Responder</h5>
+                                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                  <a href="#" class="btn text-primary">See more</a>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col-md-4">
+                            <div class="card" style="width: 20rem;">
+                                <img src="./assets/Image/architecture-building-city-2047397.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <h5 class="card-title">Home Delivery</h5>
+                                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                  <a href="#" class="btn text-primary"> See more </a>
+                                </div>
+                              </div>
+                           </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-row">
+                <div class="footer-col">
+                    <img src="./assets/logo.png" alt="">
+                </div>
+                <div class="footer-col">
+                    <h4>get help</h4>
+                    <ul>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">shipping</a></li>
+                        <li><a href="#">returns</a></li>
+                        <li><a href="#">order status</a></li>
+                        <li><a href="#">payment options</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>company</h4>
+                    <ul>
+                        <li><a href="#">about us</a></li>
+                        <li><a href="#">our services</a></li>
+                        <li><a href="#">privacy policy</a></li>
+                        <li><a href="#">affiliate program</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>follow us</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+   </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
+</html>
