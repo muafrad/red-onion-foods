@@ -1,4 +1,5 @@
 import React from 'react';
+import Foods from './Foods';
 import Footer from './Footer';
 import Header from './Header';
 import Nav from './Nav';
@@ -9,6 +10,7 @@ function App() {
     <div>
       <Nav />
       <Header />
+      <Foods />
       <Footer />
     </div>
   );
