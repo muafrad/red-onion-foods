@@ -1,17 +1,19 @@
 import React from 'react';
-import Foods from './Foods';
-import Footer from './Footer';
-import Header from './Header';
-import Nav from './Nav';
+import Signup from './Signup';
+// import Foods from './Foods';
+// import Footer from './Footer';
+// import Header from './Header';
+// import Nav from './Nav';
 import './styles/App.css';
 
 function App() {
   return (
     <div>
-      <Nav />
+      {/* <Nav />
       <Header />
       <Foods />
-      <Footer />
+      <Footer /> */}
+      <Signup />
     </div>
   );
 }
