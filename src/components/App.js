@@ -1,5 +1,6 @@
 import React from 'react';
-import Login from './Login';
+import FoodDetail from './FoodDetail';
+// import Login from './Login';
 // import Signup from './Signup';
 // import Foods from './Foods';
 // import Footer from './Footer';
@@ -15,7 +16,8 @@ function App() {
       <Foods />
       <Footer /> */}
       {/* <Signup /> */}
-      <Login />
+      {/* <Login /> */}
+      <FoodDetail />
     </div>
   );
 }
